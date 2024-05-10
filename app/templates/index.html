@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Mercado Livre Scraper</title>
+</head>
+<body>
+    <div class="_container">
+        <img src="/static/pt_logo_large_plus.webp" alt="Logo" />
+        <h1 id="_h1">Scraper</h1>
+    </div>
+
+    <p class="_aligner">
+        "Please enter the name of an item and wait for the redirection to the page with the search results."
+    </p>
+    <div class="_aligner">
+        <form action="/search" method="GET">
+        <label for="search">Search:</label>
+        <input type="text" id="search" name="query">
+        <button type="submit">Search</button>
+    </form>
+    </div>
+
+</body>
+</html>
