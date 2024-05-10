@@ -27,3 +27,21 @@ Before running the application, make sure you have the following prerequisites i
 
    ```bash
    git clone https://github.com/RfaelSantos/MLWebScrap.git
+   
+2. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the application:
+   ```
+   python app.py
+
+4. Access the application in your web browser at http://localhost:5000.
+
+## Usage
+On the homepage, enter the search term for the desired product and click the "Search" button.
+Wait until the search is complete and the results are displayed on the page.
+You can track the search in real-time by opening the browser that was automatically opened.
+Contributing
+Contributions are welcome! Feel free to open a pull request with improvements, bug fixes, or new features.
+
