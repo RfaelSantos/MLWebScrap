@@ -24,6 +24,12 @@
     padding: 16px 24px;
 }
 
+._main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 400px;
+}
 
 ._result-item {
     background-color: #f0f0f0;
