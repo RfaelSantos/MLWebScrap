@@ -27,7 +27,3 @@ def search():
         return render_template('search_results.html', divs=divs)
 
     return "No results found!"
-
-
-if __name__ == '__main__':
-    app.run()
