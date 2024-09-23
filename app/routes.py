@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from mercado_livre_scraper import MercadoLivreScraper
+from app.mercado_livre_scraper import MercadoLivreScraper
 
 app = Flask(__name__)
 mercado_livre_scraper = MercadoLivreScraper()
